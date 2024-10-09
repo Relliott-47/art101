@@ -2,8 +2,27 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
+    color: #E9AB17;
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: #000000;
   }
+  h1 {
+    color:black;
+    font-size: 200%;
+  }
+p {
+  font-family: fantasy;
+  text-indent:20px;
+  margin-left:10px;
+}
+#content {
+  background-color: white;
+  width: 500px;
+  min-height: 300px;
+  padding:10px;
+  margin: 10px;
+  border: solid 1px #888;
+  font-size: 20px;
+}
