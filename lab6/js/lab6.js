@@ -19,5 +19,6 @@ mymainride = {
 
 //output
 document.writeln("Kinds of transportation I use: ", mytransport, "</br>");
+
 document.writeln("My Main Ride: <pre>",
   JSON.stringify(mymainride, null, '\t'), "</pre>");
