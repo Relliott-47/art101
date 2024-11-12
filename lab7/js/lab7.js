@@ -1,31 +1,12 @@
+//new js file for lab 7
+//autho riley
+//created 10/28/2024
 
-//sortUserName - a function that takes user input and sorts the letters
-//of their name
-function sortUserName() {
-    var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
-    console.log("userName =", userName);
-
-    if (userName !=null){
-        document.getElementById("demo").innerHTML =
-        "Here's your new name, I hope you like it: " + sortUserName
-    }
-
-    //split string to array
-    var nameArray = userName.split('');
-
-    //sort the array
-    var nameArraySort = nameArray.sort();
-    console.log ("nameArraysort =", nameArraySort);
-
-    // join array back to a string 
-    var nameSorted = nameArraysort.join('');
-    console.log("nameSorted =", nameSorted);
-    
-    // Note that I could have done the above lines as a single line: 
-    //     userName.toLower().split("").sort().join("")
-    return nameSorted;
+//get a string from the user, sort it, return the sorted string
+function sortStr() {
+    let userName = window.prompt("riley");
+    return userName.split("").sort().join("")
 }
 
-//output
-document.writeln("Oh hey, I've fixed your name:",
-    sortUserName(), "</br>");
+
+document.writeln(sortStr())
