@@ -27,32 +27,31 @@
 
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
-
+    
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 10 - Javascript for the Web</h1>
-			</div>
+			<h1>Lab 11 - experiments</h1>
+			<div ::/">
 					<h2>Challenge</h2>
-					<p>create textboxes that can randomize provided text</p>
+					<p>Restate the challenge of the lab here.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p> couldn't get it to work at first but then I was able to look at the professors code and copy that and it worked also I had a minor problem with my lab10js code not being linked correctly but I figured it out</p> </p>
+					<p>What problems arose? How did you solve them? </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>this one was neat felt like the first time I got to do something that felt like creating a program</p>
+					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
-					<button id="make-convo">Say Something</button>
 			</div>
 		</section>
 		<nav id="links">
