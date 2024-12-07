@@ -15,7 +15,7 @@ mymainride = {
   age : function() {
     return 2024 - this.year;
   }
-}
+};
 
 //output
 document.writeln("Kinds of transportation I use: ", mytransport, "</br>");
